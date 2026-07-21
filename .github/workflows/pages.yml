@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Build website
-        uses: fopwoc/GraphiteDraft@v0
+        uses: fopwoc/GraphiteDraft@main
         with:
           source: .
           output: dist
