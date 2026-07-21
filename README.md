@@ -1,1 +1,15 @@
-Plan the related wiki website for "Journey of Star Search"!
+# 寻星之旅 Wiki
+
+欢迎来到企划《寻星之旅》的专属 wiki 网站！
+
+## 目录
+
+- [大事件](./大事件)
+- [影族](./影族)
+- [星族](./星族)
+- [河族](./河族)
+- [风族](./风族)
+
+---
+
+**使用 Obsidian + GitHub Pages 搭建**
