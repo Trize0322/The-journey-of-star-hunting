@@ -1,0 +1,125 @@
+/* ===== 信息框整体样式 ===== */
+.infobox {
+  width: 100%;
+  max-width: 420px;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  background: var(--background-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 12px 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* ===== 顶部标题 ===== */
+.infobox .infobox-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 10px 6px 10px;
+  background: var(--background-primary);
+  line-height: 1.3;
+}
+
+.infobox .infobox-subtitle {
+  font-size: 0.55em;
+  font-weight: normal;
+  color: var(--text-muted);
+  display: block;
+  margin-top: 2px;
+}
+
+/* ===== 图片占位 ===== */
+.infobox .infobox-image {
+  text-align: center;
+  padding: 16px 10px;
+  background: var(--background-modifier-hover);
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+
+/* ===== 画师署名 ===== */
+.infobox .infobox-caption {
+  text-align: center;
+  font-size: 0.7em;
+  color: var(--text-muted);
+  padding: 4px 10px 12px 10px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+}
+
+/* ===== 区块标题（生平、猫群等） ===== */
+.infobox th {
+  background: var(--background-modifier-hover);
+  text-align: center;
+  font-weight: bold;
+  padding: 6px 10px;
+  font-size: 0.95em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* ===== 左侧标签列 ===== */
+.infobox .label {
+  font-weight: bold;
+  width: 28%;
+  padding: 6px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--background-modifier-border);
+  color: var(--text-muted);
+  background: var(--background-primary);
+}
+
+/* ===== 右侧值列 ===== */
+.infobox td:last-child {
+  padding: 6px 10px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+}
+
+/* ===== 子文本（继任自...） ===== */
+.infobox .sub {
+  font-size: 0.75em;
+  color: var(--text-muted);
+  display: block;
+  padding-left: 6px;
+  margin: 1px 0;
+}
+
+/* ===== 上标角标 ===== */
+.infobox sup {
+  font-size: 0.6em;
+  color: var(--text-accent);
+}
+
+.infobox sup a {
+  color: var(--text-accent);
+  text-decoration: none;
+}
+
+.infobox sup a:hover {
+  text-decoration: underline;
+}
+
+/* ===== 数据项行 ===== */
+.infobox .infobox-data {
+  padding: 8px 10px;
+  font-size: 0.85em;
+  color: var(--text-muted);
+  background: var(--background-primary);
+  border-bottom: none;
+}
+
+/* ===== 手机端适配 ===== */
+@media (max-width: 480px) {
+  .infobox {
+    max-width: 100%;
+    font-size: 0.8em;
+  }
+  .infobox .label {
+    width: 32%;
+  }
+  .infobox .infobox-title {
+    font-size: 1.2em;
+  }
+}
