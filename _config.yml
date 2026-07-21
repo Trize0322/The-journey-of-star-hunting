@@ -1,4 +1,0 @@
-include:
-  - "*.md"
-
-permalink: /:path/:basename
