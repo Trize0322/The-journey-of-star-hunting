@@ -4,7 +4,7 @@
 
 ## 目录
 
-- [窥星](./Peepstar.md)
+- [窥星](/The-journey-of-star-hunting/Peepstar)
 
 ---
 
