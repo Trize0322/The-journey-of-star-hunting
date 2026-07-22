@@ -4,7 +4,8 @@
 
 ## 目录
 
-- [窥星](/The-journey-of-star-hunting/Peepstar)
+- [窥星](./The-journey-of-star-hunting/peepstar)
+- [河族](./河族.md)
 
 ---
 
