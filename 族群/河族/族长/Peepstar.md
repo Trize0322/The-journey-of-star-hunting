@@ -1,3 +1,7 @@
+---
+aliases:
+  - 窥星
+---
 <table class="infobox">
   <!-- 顶部：中文名 + 英文名 -->
   <tr><th colspan="2" class="infobox-title">窥星<br><span class="infobox-subtitle">Peepstar</span></th></tr>
