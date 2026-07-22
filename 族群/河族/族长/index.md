@@ -4,7 +4,7 @@
 
 ## 目录
 
-- [窥星](./peepstar/)
+- [窥星](/The-journey-of-star-hunting/族群/河族/族长/peepstar/)
 
 ---
 
