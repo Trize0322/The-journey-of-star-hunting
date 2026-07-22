@@ -24,6 +24,7 @@ jobs:
         with:
           source: .
           output: dist
+          entryPoint: README.md
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
